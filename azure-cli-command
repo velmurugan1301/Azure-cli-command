@@ -1,0 +1,11 @@
+login azure:-
+-----------------
+		->az login
+
+vm list:-
+------------
+		->az vm list --output table
+
+check ip is public or static:-
+----------------------------------------
+		->az network public-ip show --name auction-jumpbox-server-ip --resource-group AUCTION-INDIA-NONPROD --output table
